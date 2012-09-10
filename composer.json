@@ -1,6 +1,6 @@
 {
-    "name": "tommaguire/system_daemon",
-    "description": "(PEAR) class to Create Daemons with pure PHP",
+    "name": "pear/system_daemon",
+    "description": "A port of the PEAR class to create Daemons with pure PHP",
     "require": {
         "php": ">=5.3.0"
     }
