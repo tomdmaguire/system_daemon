@@ -238,6 +238,14 @@ class System_Daemon
             'detail' => 'Recommended to set this yourself; Required for init.d',
             'required' => true
         ),
+        'appArgs' => array(
+            'type' => 'string',
+            'default' => '',
+            'punch' => 'Optional arguments',
+            'example' => 'argument',
+            'detail' => 'Recommended to set this yourself',
+            'required' => false
+        ),
 
         'logVerbosity' => array(
             'type' => 'number/0-7',

@@ -63,6 +63,7 @@ class System_Daemon_OS_Fedora extends System_Daemon_OS_RedHat
         '@desc@'      => '{PROPERTIES.appDescription}',
         '@bin_file@'  => '{PROPERTIES.appDir}/{PROPERTIES.appExecutable}',
         '@bin_name@'  => '{PROPERTIES.appExecutable}',
+        '@bin_args@'  => '{PROPERTIES.appArgs}',
         '@pid_file@'  => '{PROPERTIES.appPidLocation}',
         '@chkconfig@' => '{PROPERTIES.appChkConfig}',
     );

@@ -9,7 +9,7 @@
 DESC="@desc@"
 NAME=@bin_name@
 DAEMON=@bin_file@
-DAEMON_ARGS=""
+DAEMON_ARGS=@bin_args@
 PIDFILE=@pid_file@
 SCRIPTNAME=/etc/rc.d/@bin_name@
 PID=$(cat $PIDFILE 2>/dev/null)
