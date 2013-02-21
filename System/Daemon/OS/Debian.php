@@ -55,6 +55,7 @@ class System_Daemon_OS_Debian extends System_Daemon_OS_Linux
         '@desc@'         => '{PROPERTIES.appDescription}',
         '@bin_file@'     => '{PROPERTIES.appDir}/{PROPERTIES.appExecutable}',
         '@bin_name@'     => '{PROPERTIES.appExecutable}',
+        '@bin_args@'     => '{PROPERTIES.appArgs}',
         '@pid_file@'     => '{PROPERTIES.appPidLocation}',
         '@chkconfig@'    => '{PROPERTIES.appChkConfig}',
     );

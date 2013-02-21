@@ -8,13 +8,14 @@
 # pidfile: @pid_file@
 PID_FILE=@pid_file@
 BIN_FILE=@bin_file@
+BIN_ARGS=@bin_args@
 
 
 # Source function library.
 . /etc/rc.d/init.d/functions
 
 start() {
-    ${BIN_FILE}
+    ${BIN_FILE} ${BIN_ARGS}
     ret=$?
     if [ $ret -eq 0 ]; then
         action $"Starting @name@: " /bin/true
